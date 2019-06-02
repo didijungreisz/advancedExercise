@@ -37,7 +37,7 @@ class TestClass {
 				System.out.println(e);
 			}
 			stockTranslator = new StockEntityTranslator();
-			stock = new Stock(111111111, "Softimize", 1009.98, "01/06/2019");
+			stock = new Stock(111111111, "AMZN", 1009.98, "01/06/2019");
 			cache = new Cache(repoProvider, Stock.class, stockTranslator, LoadingMode.EAGER);
 		}
 	    
